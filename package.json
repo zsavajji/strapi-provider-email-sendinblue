@@ -1,6 +1,6 @@
 {
   "name": "@yanotoma/strapi-provider-email-sendinblue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sendinblue provider for strapi email",
   "main": "./lib",
   "directories": {
