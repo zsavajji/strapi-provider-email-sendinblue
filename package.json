@@ -1,5 +1,5 @@
 {
-    "name": "strapi-provider-email-sendinblue",
+    "name": "@yanotoma/strapi-provider-email-sendinblue",
     "version": "3.4.6",
     "description": "Sendinblue provider for strapi email",
     "homepage": "",
@@ -30,9 +30,12 @@
         "email": "yano.toma@gmail.com"
       }
     ],
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
+    },
     "repository": {
       "type": "git",
-      "url": "git://github.com/strapi/strapi.git"
+      "url": "git@github.com:yanotoma/strapi-provider-email-sendinblue.git"
     },
     "bugs": {
       "url": "https://github.com/strapi/strapi/issues"
