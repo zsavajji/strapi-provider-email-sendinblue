@@ -1,17 +1,17 @@
 {
-  "name": "@yanotoma/strapi-provider-email-sendinblue",
-  "version": "1.1.0",
+  "name": "@zsavajji/strapi-provider-email-sendinblue",
+  "version": "1.2.0",
   "description": "Sendinblue provider for strapi email",
+  "maintainers": [
+    "Andrea Faggin <andrea.faggin@we-go.it>"
+  ],
   "main": "./lib",
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanotoma/strapi-provider-email-sendinblue.git"
+    "url": "git@github.com:zsavajji/strapi-provider-email-sendinblue.git"
   },
   "keywords": [
     "strapi",
@@ -21,17 +21,13 @@
   "author": "Akira Yano <yano.toma@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/yanotoma/strapi-provider-email-sendinblue/issues"
+    "url": "https://github.com/zsavajji/strapi-provider-email-sendinblue/issues"
   },
-  "homepage": "https://github.com/yanotoma/strapi-provider-email-sendinblue#readme",
+  "homepage": "https://github.com/zsavajji/strapi-provider-email-sendinblue#readme",
   "dependencies": {
-    "sib-api-v3-sdk": "^8.2.0",
-    "strapi-utils": "3.4.6"
+    "sib-api-v3-sdk": "^8.5.0"
   },
   "strapi": {
     "isProvider": true
-  },
-  "maintainers": [
-    "Akira Yano <yano.toma@gmail.com>"
-  ]
+  }
 }

@@ -18,10 +18,10 @@ You need to have the plugin `strapi-plugin-email` installed in you Strapi projec
 
 ```bash
 # using yarn
-yarn add @yanotoma/strapi-provider-email-sendinblue
+yarn add @zsavajji/strapi-provider-email-sendinblue
 
 # using npm
-npm install @yanotoma/strapi-provider-email-sendinblue --save
+npm install @zsavajji/strapi-provider-email-sendinblue --save
 ```
 
 ## Configuration
@@ -30,13 +30,13 @@ npm install @yanotoma/strapi-provider-email-sendinblue --save
 
 Since the name of the package has an scope you have to add an alias.
 
-replace `<version>` with the version you have installed. ex. `npm:@yanotoma/strapi-provider-email-sendinblue@1.0.1`
+replace `<version>` with the version you have installed. ex. `npm:@zsavajji/strapi-provider-email-sendinblue@1.2.0`
 
 ```json
 
   "dependencies": {
     ...
-    "strapi-provider-email-sendinblue": "npm:@yanotoma/strapi-provider-email-sendinblue@<version>"
+    "strapi-provider-email-sendinblue": "npm:@zsavajji/strapi-provider-email-sendinblue@<version>"
     ...
   }
 
@@ -101,7 +101,7 @@ module.exports = ({ env }) => ({
 ```js
 // using html and text
 const user = {
-  name: 'Jhon Doe',
+  name: 'John Doe',
   email: 'jd@mail.com',
 };
 
@@ -121,7 +121,7 @@ await strapi.plugins.email.services.email.send({
 ```js
 // using template id
 const user = {
-  name: 'Jhon Doe',
+  name: 'John Doe',
   email: 'jd@mail.com',
 };
 
@@ -143,7 +143,7 @@ await strapi.plugins.email.services.email.send({
 const contact = {
   email: 'jd@mail.com',
   attributes: {
-    'FIRSTNAME': 'Jhon',
+    'FIRSTNAME': 'John',
     'LASTNAME': 'Doe'
   }
 };
